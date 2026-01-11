@@ -1,5 +1,5 @@
 const container = document.querySelector(".container")
-for (let i=0;i<=100;i++){
+for (let i=1;i<=100;i++){
     const imgContainer=document.createElement('div')
 imgContainer.classList.add('img-container')
 
