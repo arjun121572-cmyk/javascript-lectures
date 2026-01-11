@@ -1,0 +1,17 @@
+const container = document.querySelector(".container")
+for (let i=1;i<=100;i++){
+    const imgContainer=document.createElement('div')
+imgContainer.classList.add('img-container')
+
+const newImg= document.createElement('img')
+newImg.src=`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+
+const paragraph=document.createElement('p')
+paragraph.innerText=i
+imgContainer.append(newImg,paragraph)
+container.append(imgContainer)
+// const myHtml=`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">
+//         <p>${i}</p>`
+// imgContainer.innerHTML=myHtml
+}
+const myImg=document.querySelector("body > div > div:nth-child(3)")
