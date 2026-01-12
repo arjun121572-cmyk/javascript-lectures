@@ -1,4 +1,7 @@
-.container {
+h1{
+    color: aqua;
+}
+.container { 
     color: green;
     display: flex;
     flex-wrap: wrap;
