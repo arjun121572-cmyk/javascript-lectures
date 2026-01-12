@@ -15,8 +15,10 @@ let count=1
 
 // click on + card to add new card
 addCard.addEventListener("click", () => {
-    const newCard = document.createElement("div");
-    newCard.classList.add("card");
+    // const newCard = document.createElement("div");
+   const newCard= addCard.cloneNode()
+    newCard.classList.remove('add-card')
+    console.log(newCard);
     newCard.textContent = count;
     count++;
     container.append(newCard);
