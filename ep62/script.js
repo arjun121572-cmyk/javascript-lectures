@@ -27,3 +27,9 @@ inputUsername.addEventListener('focus', (e)=>{
 
     paragraph.innerText=e.target.value
 })
+inputUsername.addEventListener('blur', (e)=>{
+    console.log(e);
+    inputValue=e.target.value
+
+    paragraph.innerText=e.target.value
+})
