@@ -31,7 +31,7 @@ let count = 0
 //     newCard.innerText = count++
 //     container.append(newCard)
 // })
-addcardButton.addEventListener('mouseenter', (e) => {
+addcardButton.addEventListener('mouseleave', (e) => {
     console.log(e);
     const newCard = document.createElement('div')
     newCard.classList.add('card')
