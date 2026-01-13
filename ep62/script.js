@@ -7,10 +7,17 @@ const paragraph=document.querySelector('p')
 //     console.log(' double input clicked');
 // })
 let inputValue
-inputUsername.addEventListener('input', (e)=>{
+// inputUsername.addEventListener('input', (e)=>{
+//     console.log(e.target.value);
+//     inputValue=e.target.value
+
+//     paragraph.innerText=e.target.value
+//     console.log(' input value changed');
+// })
+inputUsername.addEventListener('change', (e)=>{
     console.log(e.target.value);
     inputValue=e.target.value
 
     paragraph.innerText=e.target.value
-    console.log(' double input clicked');
+    console.log(' input value changed');
 })
