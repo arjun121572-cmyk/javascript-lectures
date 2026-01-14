@@ -59,7 +59,21 @@ let count = 0
 //     newCard.innerText = count++
 //     container.append(newCard)
 // })
-addcardButton.addEventListener('touchstart', (e) => {
+// addcardButton.addEventListener('touchstart', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+// .addEventListener('touchend', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+h1.addEventListener('drag', (e) => {
     console.log(e);
     const newCard = document.createElement('div')
     newCard.classList.add('card')
