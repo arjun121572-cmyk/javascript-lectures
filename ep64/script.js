@@ -45,10 +45,17 @@ let count = 0
 //     newCard.innerText = count++
 //     container.append(newCard)
 // })
-addcardButton.addEventListener('mousemove', (e) => {
-    console.log(e);
-    const newCard = document.createElement('div')
-    newCard.classList.add('card')
-    newCard.innerText = count++
-    container.append(newCard)
-})
+// addcardButton.addEventListener('mousemove', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+// addcardButton.addEventListener('wheel', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
